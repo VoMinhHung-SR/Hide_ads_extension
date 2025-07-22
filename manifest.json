@@ -5,7 +5,7 @@
   "description": "Ẩn các quảng cáo bằng CSS và JS",
   "content_scripts": [
     {
-      "matches": ["*://animevietsub.lol/*"],
+      "matches": ["*://*/*"],
       "js": ["content.js"],
       "run_at": "document_idle"
     }
